@@ -140,13 +140,13 @@ export const events = [
       name: 'Fruit Art',
       description: 'lskdfnoskfwe',
       imgUrl: fruit,
-      url: "",
+      url: "https://forms.gle/zbtxRr4GBLPpMBzn6",
     },
     {
       name: 'Debate',
       description: 'lskdfnoskfwe',
       imgUrl: debate,
-      url: "",
+      url: "https://forms.gle/sx5RAAtLhH1yiDp96",
   },
   {
     name: 'Face Painting',
