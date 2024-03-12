@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-gradient {
+    @apply bg-gradient-to-r from-yellow-500 to-yellow-300  text-transparent bg-clip-text;
+}
+/* *{
+    font-family:SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+} */
+
+@layer base {
+  .header {
+    @apply flex justify-between items-center sm:px-16 px-8 py-4 max-w-full mx-auto absolute top-0 bg-transparent z-10 right-0 left-0;
+  }
+    .font-outline-2 {
+      -webkit-text-stroke: 7px  black;
+    }
+    .font-outline-4 {
+      -webkit-text-stroke: 4px black;
+    }
+    .font-outline-5 {
+      -webkit-text-stroke: 2px cyan;
+    }
+
+    .ani-text {
+      opacity: 1;
+      background-image: url(bg9l.jpeg);
+      background-position: 0px 0px;
+      background-repeat: repeat-x;
+      background-clip: inherit;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      animation: animatedBackground 40s linear infinite;
+    }
+
+    .ani-text-sm {
+      opacity: 1;
+      background-image: url(bg9l.jpeg);
+      background-position: 0px 0px;
+      background-repeat: repeat-x;
+      background-clip: inherit;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      animation: animatedBackground 100s linear infinite;
+    }
+
+    .navunderline {
+        @apply block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-16 after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center;
+    }
+
+    /* ============ flip hover styles ============ */
+    .card:hover {
+      transform: rotateY(180deg);
+      transform-style: preserve-3d;
+    }
+
+    .card-back {
+      transform: rotateY(180deg);
+    }
+
+    .btn2 span:first-child{
+        transform: translateX(-101%);
+        transition: transform .3s ease-in
+      }
+      .btn2:hover span{
+        transform: translateX(0)
+      }
+
+    .grad {
+      background-color: hsl(210, 87%, 49%);
+      background-image: 
+              linear-gradient(-45deg, transparent 50%, hsl(231, 77%, 7%) 50%);
+      color: transparent;
+      background-clip: text;
+
+    }
+
+    .grad2 {
+      background-color: hsl(231, 77%, 7%);
+      background-image: 
+              linear-gradient(45deg, transparent 50%, hsl(210, 87%, 49%) 50%);
+      color: transparent;
+      background-clip: text;
+    }
+
+    .grad3 {
+      background-color: hsl(231, 77%, 7%);
+      background-image: 
+              linear-gradient(170deg, transparent 50%, hsl(210, 87%, 49%) 50%);
+      color: transparent;
+      background-clip: text;
+    }
+
+    .grad4 {
+      background-color: hsl(231, 77%, 7%);
+      /* background-image: 
+              linear-gradient(170deg, transparent 0%, hsl(210, 87%, 49%) 80%); */
+      color: transparent;
+      background-clip: text;
+    }
+
+    .grad5 {
+      background-color: hsl(184, 87%, 46%);
+      /* background-color: white; */
+      /* background-image: 
+              linear-gradient(170deg, transparent 0%, hsl(210, 87%, 49%) 80%); */
+      color: transparent;
+      background-clip: text;
+    }
+
+    
+  }
+
+  @keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
