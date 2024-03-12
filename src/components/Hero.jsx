@@ -8,7 +8,7 @@ import bgv4 from '../assets/bgv4.mp4'
 
 const Hero = ({pref}) => {
   return (
-    <div ref={pref} className=' flex relative mt-20 lg:mt-36 gap-y-10 pb-10 lg:pb-40  lg:gap-y-0 flex-col h-[80vh] lg:h-[100vh] items-center justify-center overflow-hidden
+    <div ref={pref} className=' flex relative mt-7 lg:mt-36 gap-y-10 pb-3 lg:pb-40  lg:gap-y-0 flex-col h-[70vh] lg:h-[100vh] items-center justify-center overflow-hidden
     
     '>
 
@@ -37,7 +37,7 @@ const Hero = ({pref}) => {
       
 
         <div className='absolute text-center top-1/2 '>
-        <h1 className=' text-xl lg:text-4xl mt-24 lg:mt-32 text-white font-anta'>March 27-28, 2024</h1> 
+        <h1 className=' text-lg lg:text-4xl mt-20 lg:mt-32 text-white font-anta'>March 27-28, 2024</h1> 
         <h3 className=' text-lg mx-4 lg:mx-0 flex  text-center text-white  lg:text-3xl mt-5 lg:mt-6 font-anta '>M. Kumarasamy College of Engineering, Karur</h3>
         </div>
 

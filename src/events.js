@@ -170,7 +170,7 @@ export const events = [
         name: 'Rangoli',
         description: 'lskdfnoskfwe',
         imgUrl: rangoli,
-        url: "https://forms.gle/N84L9te3YJ72c6Xk7",
+        url: "https://forms.gle/ZVnbJQ7P5rnZFZuLA",
     },
     {
       name: 'Mehndi Design',

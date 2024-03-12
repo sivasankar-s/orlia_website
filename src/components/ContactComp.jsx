@@ -5,7 +5,7 @@ import { FaGlobe, FaInstagram } from "react-icons/fa";
 
 const ContactComp = () => {
   return (
-    <div className='bg-gradient-to-br from-zinc-100 to-zinc-400'>
+    <div className='bg-gradient-to-br from-zinc-950 to-zinc-950'>
       {/* <h1 className='pt-40 text-4xl lg:text-7xl font-anta text-center  after:block mb-20'>CONTACT</h1> */}
 
 <div className='bg-zinc-950'>
@@ -41,7 +41,7 @@ const ContactComp = () => {
                 <div className='flex flex-col gap-y-5 '>
                     <p className='text-lg font-bold'>Suresh E </p>
                     <p className='text-lg font-bold'>Nandha Kumar P </p>
-                    <p className='text-lg font-bold'>Dinesh Kumar M </p>
+                    <p className='text-lg font-bold'>Dinesh Kumar K </p>
                     <p className='text-lg font-bold'>Santhoshkumar A  </p>
 
                     <p className='text-lg font-bold'>Sujith P </p>
@@ -83,11 +83,16 @@ const ContactComp = () => {
     <Link target='_blank' to='https://www.instagram.com/Orlia_2k24/' className='mt-4 text-lg font-semibold block text-center text-white'>Orlia_2k24</Link>
     </div>
 
-    <div className='flex items-center justify-center'>
+    {/* <div className='flex items-center justify-center'>
         <div className='text-white items-center mt-4 mr-4 text-xl'>
             <FaGlobe />
         </div>  
     <Link target='_blank' to='https://mkce.ac.in/' className='mt-4 text-lg font-semibold block text-center text-white'>mkce.ac.in</Link>
+    </div> */}
+
+    <div className='flex items-center justify-center mt-10'>
+        
+    <div className=' text-lg mt-7 font-thin block text-center text-white'>Orlia © 2024</div>
     </div>
 
 

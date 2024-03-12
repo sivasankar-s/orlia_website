@@ -54,10 +54,10 @@ const Home = () => {
         <Reveal>
         <RegisterButton />
         </Reveal> */}
-        <Reveal>
+        {/* <Reveal> */}
           <ContactComp />
-        </Reveal>
-        <Footer />
+        {/* </Reveal> */}
+        {/* <Footer /> */}
 
     </div>
   )
