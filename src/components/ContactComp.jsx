@@ -24,9 +24,9 @@ const ContactComp = () => {
             </div>
 
             <div className='flex flex-col gap-y-5'>
-                <Link className='text-lg font-semibold text-cyan-300' to='tel:9787886643'> 9787886643</Link>
-                <Link className='text-lg font-semibold text-cyan-300' to='tel:9942712798'> 9942712798</Link>
-                <Link className='text-lg font-semibold text-cyan-300' to='tel:9942712798'> 9942712798</Link>
+                <Link className='text-lg font-semibold text-cyan-300' to='tel:7373888818'> 7373888818</Link>
+                <Link className='text-lg font-semibold text-cyan-300' to='tel:6380120789'> 6380120789</Link>
+                <Link className='text-lg font-semibold text-cyan-300' to='tel:9994498534'> 9994498534</Link>
             </div>
             </div>
             
