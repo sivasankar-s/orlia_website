@@ -14,6 +14,7 @@ import Carousel from '../components/Carousel'
 import CarouselComp from '../components/Carousel'
 import Events from '../components/Events'
 import ContactComp from '../components/ContactComp'
+import RevealHero from '../RevealHero'
 
 const Home = () => {
 
@@ -29,9 +30,9 @@ const Home = () => {
     <div className='h-screen w-auto sm:w-full bg-black flex flex-col '>
       <Navbar />
 
-      <Reveal>
+      <RevealHero>
         <Hero />
-        </Reveal>
+        </RevealHero>
 
         {/* <section className=''>
             <h1 className='text-white text-3xl'>Date for Submitting Ideas <span className='font-semibold'>06.03.2024</span></h1>
