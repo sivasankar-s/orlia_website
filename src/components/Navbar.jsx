@@ -14,11 +14,11 @@ const Navbar = () => {
     <div className=' header   text-sm gap-4 lg:text-lg sm:gap-10 font-medium font-anta p-1 '>
       {/* absolute top-0 right-0 left-0 */}
       <div className='flex gap-x-4 lg:gap-x-12'>
-      <img src={mkcelogo} className=' lg:left-4 lg:w-56 lg:h-16 w-24 h-8' />
+      <img src={mkcelogo} className=' lg:left-4 lg:w-56 lg:h-16 w-32 h-12' />
       {/* <div className='flex justify-center '> */}
-      <img src={naac} className=' lg:w-16 lg:h-12 w-10 h-6' />
-      <img src={wheel} className=' lg:w-12 lg:h-12 w-6 h-6' />
-      <img src={nirf} className=' lg:w-32 lg:h-12 w-16 h-6' />
+      <img src={naac} className=' lg:w-16 lg:h-12 w-10 h-7' />
+      <img src={wheel} className=' lg:w-12 lg:h-12 w-6 h-7' />
+      <img src={nirf} className=' lg:w-32 lg:h-12 w-16 h-7' />
       {/* </div> */}
       </div>
 

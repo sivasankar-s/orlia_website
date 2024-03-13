@@ -27,6 +27,9 @@ import connexion from './assets/imgs/connexion.jpg'
 import treasure from './assets/imgs/treasure.jpg'
 import mehndi from './assets/imgs/mehndi.jpg'
 
+import rj from './assets/rj.jpeg'
+import ve from './assets/ve.jpeg'
+
 export const events = [
     {
         name: 'Singing',
@@ -149,10 +152,16 @@ export const events = [
       url: "https://forms.gle/sx5RAAtLhH1yiDp96",
   },
   {
-    name: 'Face Painting',
+    name: 'RJ / VJ Hunt',
     description: 'lskdfnoskfwe',
-    imgUrl: face,
-    url: "https://forms.gle/jftc1GoLkvBAnFuh9",
+    imgUrl: rj,
+    url: "https://forms.gle/JfeYz2kcDF7TC4VN7", ////////////
+},
+{
+  name: 'Variety Event (Mimcry, etc)',
+  description: 'lskdfnoskfwe',
+  imgUrl: ve,
+  url: "https://forms.gle/eRdXAej2cxYh6H4s5", /////////////
 },
 {
   name: 'Connexion',
