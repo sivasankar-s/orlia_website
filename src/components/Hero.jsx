@@ -8,7 +8,7 @@ import bgv4 from '../assets/bgv4.mp4'
 
 const Hero = ({pref}) => {
   return (
-    <div ref={pref} className=' flex relative mt-7 lg:mt-36 gap-y-10 pb-3 lg:pb-40  lg:gap-y-0 flex-col h-[65vh] lg:h-[100vh] items-center justify-center overflow-hidden
+    <div ref={pref} className=' flex relative mt-7 lg:mt-36 gap-y-10 pb-3 lg:pb-40  lg:gap-y-0 flex-col h-[65vh] lg:h-[90vh] items-center justify-center overflow-hidden
     
     '>
 
