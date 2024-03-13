@@ -191,5 +191,6 @@ export const events = [
         name: 'Surprise Event',
         description: 'lskdfnoskfwe',
         imgUrl: surprise,
+        url: "https://forms.gle/Xoa6dMRUtb8TJwNZ7",
     },
 ]
