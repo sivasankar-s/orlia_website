@@ -44,7 +44,7 @@ export const events = [
         url: "https://forms.gle/N4dCH5T2kFPsbMGc8",
     },
     {
-        name: 'Drawing',
+        name: 'Drawing / Painting',
         description: 'lskdfnoskfwe',
         imgUrl: drawing,
         url: "https://forms.gle/wRdHrYzhRApRgW6t8",
