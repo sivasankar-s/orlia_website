@@ -164,7 +164,7 @@ export const events = [
   url: "https://forms.gle/eRdXAej2cxYh6H4s5", /////////////
 },
 {
-  name: 'Connexion',
+  name: 'Connections',
   description: 'lskdfnoskfwe',
   imgUrl: connexion,
   url: "https://forms.gle/rXXuE6W3HdrVS8GS9",
